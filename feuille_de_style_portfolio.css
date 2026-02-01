@@ -1,0 +1,200 @@
+/* menu */
+
+nav {
+    width: 90%;
+    background-color: #FFEEEF;
+    margin-left: 0%;
+    text-align: left;
+    text-indent: 1%;
+    border: 2px solid #9D1F64;
+    border-radius: 10px;
+}
+
+
+
+/* général */
+
+header {
+  color: #9D1F64;
+  font-size: 2em;
+  font-family: 'SonsieOne', sans-serif;
+  text-align: left;
+  text-shadow: 1px 4px 3px grey;
+}
+
+body {
+  background-color: #FFEEEF;
+  width: 80%;
+  margin-left: 10%;
+  text-align: justify;
+}
+
+
+
+/* styles ponctuels */
+
+.citations {
+  font-style: italic;
+}
+
+#moi {
+  font-family: 'Parisienne';
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.introduction {
+  color: #000000;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin-top: 2em;
+}
+
+
+
+/* pied de page */
+
+footer {
+    background: #9D1F64;
+    color: #FFEEEF;
+    font-size: 1,3em;
+    border-radius: 1em;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* import des polices */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('polices/Montserrat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src: url('polices/Parisienne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SonsieOne';
+    src: url('polices/SonsieOne.ttf') format('truetype');
+}
+
+
+
+/* titres */
+
+h1 {
+  color: #9D1F64;
+  font-size: 2em;
+  font-family: 'SonsieOne', sans-serif;
+  text-shadow: 1px 4px 3px grey;
+}
+
+h2 {
+  color: #9D1F64;
+  font-size: 2em;
+  font-family: 'SonsieOne', sans-serif;
+  margin-top: 2em;
+}
+
+h3 {
+  color: #000000;
+  font-size: 2em;
+  font-family: 'Parisienne', sans-serif;
+}
+
+
+
+/* paragraphes */
+
+P {
+  color: #000000;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* listes */
+
+ul {
+  color: #000000;
+  font-size:80%;
+  list-style: circle outside;
+}
+
+ol {
+  color: #9D1F64;
+  font-size: 60%;
+  list-style: decimal outside;
+}
+
+
+
+/* tableau */
+
+table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border-style: solid;
+  border-color: #000000;
+  border-width: thin;
+  border-collapse: collapse;
+}
+
+
+
+/* lien non visité */
+
+a[href="https://aicomparis.com"] {
+    color: #9D1F64;
+}
+
+/* lien déjà visité */
+a[href="https://aicomparis.com"]:visited {
+    color: darkviolet;
+}
+
+/* survol de la souris */
+a[href="https://aicomparis.com"]:hover {
+    color: #000000;
+    text-decoration:overline;
+}
+
+/* au moment du clic */
+a[href="https://aicomparis.com"]:active {
+    color: #9D1F64;
+}
+
+
+
+/* idem pour mailto */
+
+a[href^="mailto:"] {
+    color: #FFEEEF;
+}
+
+a[href^="mailto:"]:visited {
+    color: #9D1F64;
+}
+
+a[href^="mailto:"]:hover {
+    color: #FFFFFF;
+    text-decoration:overline;
+}
+
+a[href^="mailto:"]:active {
+    color: #FFFFFF;
+}
