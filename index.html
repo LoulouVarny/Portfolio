@@ -12,6 +12,13 @@
 
 
 	<body>
+		<header> 
+			<h1>Marie-Lou Variot Erny</h1> 
+			<p>Étudiante en DEUST WMI – Portfolio</p> 
+		</header> 
+		
+		<section class="presentation"> <img src="assets/images/photo.jpg" alt="Photo de profil" class="photo"> 
+			<h2>À propos de moi</h2> <p>Brève présentation… (à compléter plus tard).</p> <div class="socials"> <a href="https://linkedin.com" target="_blank">LinkedIn</a> <a href="https://github.com" target="_blank">GitHub</a> <a href="https://instagram.com" target="_blank">Instagram</a> </div> </section> <section class="api"> <h2>Météo du jour (API OpenWeatherMap)</h2> <div id="weather"></div> </section> <section class="api"> <h2>Une blague aléatoire (API JokeAPI)</h2> <div id="joke"></div> </section> <footer> <a href="travaux.html">Voir mes travaux</a> </footer> <script> // API météo (exemple avec Paris) fetch("https://api.open-meteo.com/v1/forecast?latitude=48.85&longitude=2.35&current_weather=true") .then(response => response.json()) .then(data => { document.getElementById("weather").innerHTML = "Température : " + data.current_weather.temperature + "°C"; }); // API blague fetch("https://v2.jokeapi.dev/joke/Any?type=single") .then(response => response.json()) .then(data => { document.getElementById("joke").innerHTML = data.joke; }); </script>
 
 		<header><h1>Présentation personnelle</h1></header>
 
