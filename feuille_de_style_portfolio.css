@@ -28,7 +28,7 @@ body {
     background-color: #9D1F64;
     color: #FFEEEF;
     margin: 0; 
-    padding: 0 20px 20px 20px;
+    padding: 20px;
 }
 
 
@@ -91,7 +91,7 @@ h2 {
   color: #9D1F64;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
-  margin-top: 2em;
+  margin-top: 0;
 }
 
 
