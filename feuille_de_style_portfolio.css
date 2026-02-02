@@ -25,11 +25,10 @@ header {
 }
 
 body {
-  background-color: #9D1F64;
+    background-color: #9D1F64;
     color: #FFEEEF;
-  width: 80%;
-  margin-left: 10%;
-  text-align: justify;
+    margin: 0; 
+    padding: 20px;
 }
 
 
@@ -101,13 +100,14 @@ h2 {
 /* paragraphes */
 
 section {
+    width: 80%;
     background-color: #FFEEEF;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
-    padding: 5px;
+    padding: 20px;
     border: 4px solid #9D1F64;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 
