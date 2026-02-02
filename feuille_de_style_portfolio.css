@@ -1,7 +1,6 @@
 /* menu */
 
-a[href^="./index.html"], a[href^="./index.html"] {
-    width: 90%;
+a[href^="./index.html"], a[href^="./travaux.html"] {
     background-color: #FFEEEF;
     margin-left: 0%;
     text-align: left;
