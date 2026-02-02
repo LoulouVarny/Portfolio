@@ -75,14 +75,14 @@ footer {
 /* titres */
 
 h1 {
-  color: #000000;
+  color: #9D1F64;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   text-shadow: 1px 4px 3px grey;
 }
 
 h2 {
-  color: #9D1F64;
+  color: #000000;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   margin-top: 2em;
@@ -105,7 +105,7 @@ section {
 /* listes */
 
 ul {
-  color: #9D1F64;
+  color: #000000;
   font-size:80%;
   list-style: circle outside;
 }
