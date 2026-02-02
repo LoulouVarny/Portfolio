@@ -3,11 +3,9 @@
 
 
 	<head>
-
 		<meta charset="utf-8">
-		<title>Présentation personelle de Marie-Lou Variot Erny</title>
+		<title>Portfolio de Marie-Lou Variot Erny</title>
 		<link rel="stylesheet" type="text/css" href="feuille_de_style_portfolio.css">
-
 	</head>
 
 
@@ -16,60 +14,74 @@
 			<h1>Marie-Lou Variot Erny</h1> 
 			<p>Étudiante en DEUST WMI – Portfolio</p> 
 		</header> 
+
+		<section class="presentation"> <img src="photoml.jpg" alt="Photo de Marie-Lou Variot Erny" class="photo"> 
+			
+		<h2>PROFIL</h2> 
+			<ul> 
+				<li>Paris</li> 
+				<li>18 ans</li> 
+				<li>Permis B</li> 
+			</ul>
 		
-		<section class="presentation"> <img src="assets/images/photo.jpg" alt="Photo de profil" class="photo"> 
-			<h2>À propos de moi</h2> <p>Brève présentation… (à compléter plus tard).</p> <div class="socials"> <a href="https://linkedin.com" target="_blank">LinkedIn</a> <a href="https://github.com" target="_blank">GitHub</a> <a href="https://instagram.com" target="_blank">Instagram</a> </div> </section> <section class="api"> <h2>Météo du jour (API OpenWeatherMap)</h2> <div id="weather"></div> </section> <section class="api"> <h2>Une blague aléatoire (API JokeAPI)</h2> <div id="joke"></div> </section> <footer> <a href="travaux.html">Voir mes travaux</a> </footer> <script> // API météo (exemple avec Paris) fetch("https://api.open-meteo.com/v1/forecast?latitude=48.85&longitude=2.35&current_weather=true") .then(response => response.json()) .then(data => { document.getElementById("weather").innerHTML = "Température : " + data.current_weather.temperature + "°C"; }); // API blague fetch("https://v2.jokeapi.dev/joke/Any?type=single") .then(response => response.json()) .then(data => { document.getElementById("joke").innerHTML = data.joke; }); </script>
+		<h2>FORMATION</h2> 
+			<ul> 
+				<li>DEUST à l'Université de Limoges : en Webmaster et métiers de l’internet</li> 
+				<li>BACHELOR à l'AICOM Créteil : en école de Comédie musicale</li> 
+				<li>BACCALAURÉAT : avec spécialités mathématiques et ses, en section orientale chinois</li> 
+				<li>BAFA</li> 
+				<li>HSK, Diplôme de chinois : Niveau 3</li> 
+			</ul>
+		
+		<h2>COMPÉTENCES</h2> 
+			<ul> 
+				<li>Gestion de projet</li> 
+				<li>Création de contenus</li> 
+				<li>Connaissance de l’entreprise</li> 
+				<li>Création de sites web</li> 
+				<li>Programmation (Algorithme)</li> 
+				<li>Système d’exploitation</li> 
+				<li>Hébergement</li> 
+				<li>Administration des CMS</li> 
+			</ul>
+		
+		<h2>EXPÉRIENCE</h2> 
+			<ul> 
+				<li>COMMUNITY MANAGER D’ASSOCIATIONS</li> 
+				<li>ANIMATION</li> 
+				<li>ORTHOPHONIE</li> 
+			</ul>
+			
+		<h2>LANGUES</h2> 
+			<ul> 
+				<li>Anglais : Niveau intermédiaire (B1)</li> 
+				<li>Chinois : Niveau intermédiaire (B1)</li> 
+				<li>Allemand : Niveau intermédiaire (B1)</li> 
+			</ul>
 
-		<header><h1>Présentation personnelle</h1></header>
+		<h2>CENTRES D’INTÉRÊT</h2> 
+			<ul> 
+				<li>Art : comédie musicale, piano, chant, théâtre</li> 
+				<li>Sport : danse (classique, moderne, hip hop), ski, catamaran, volley</li>
+			</ul>
+		
+			
+			<div class="socials"> 
+				<a href="https://www.linkedin.com/in/marie-lou-variot-erny-1ab7a63a2/" target="_blank">LinkedIn</a> 
+			</div>
+	
+		</section> 
+		
 
+		<section class="api"> 
+			<h2>Une blague aléatoire (API JokeAPI)</h2> 
+			<div id="joke"></div> 
+		</section> 
 
+		<script> 
+			// API blague fetch("https://v2.jokeapi.dev/joke/Any?type=single") .then(response => response.json()) .then(data => { document.getElementById("joke").innerHTML = data.joke; }); 
+		</script>
 
-		<nav>
-			<ol>
-			<a href="./index.html"><h2>Bienvenue sur le portfolio de Marie-Lou Variot Erny</h2></a>
-			<li><h2>Présentation personnelle</h2></li>
-				<ul><li><h3>Qui suis-je ?</h3></li>
-				<li><h3>Mes premières expériences professionnelles</h3></li></ul>
-			<li><a href="./projet_professionnel.html#Pourquoi cette formation ?"><h2>Pourquoi cette formation ?</h2></a></li>
-				<ul><li><a href="./projet_professionnel.html#Pourquoi cette formation ?"><h3>Pourquoi la formation à distance ?</h3></a></li>
-				<li><a href="./projet_professionnel.html#Pourquoi cette formation ?"><h3>Pourquoi le web ?</h3></a></li></ul>
-			<li><a href="./projet_professionnel.html#Points de progrès et stratégie de réussite"><h2>Points de progrès et stratégie de réussite</h2></a></li>
-				<ul><li><a href="./projet_professionnel.html#Points de progrès et stratégie de réussite"><h3>Mes points forts et mes points faibles</h3></a></li>
-				<li><a href="./projet_professionnel.html#Points de progrès et stratégie de réussite"><h3>Des risques d’échec ?</h3></a></li>
-				<li><a href="./projet_professionnel.html#Points de progrès et stratégie de réussite"><h3>Mes stratégies de réussite</h3></a></li></ul>
-			</ol>
-		</nav>
-
-
-
-		<section>
-
-			<section>
-
-				<h3>Qui suis-je ?</h3>
-
-					<p>Je m’appelle <span id="moi">Marie-Lou Variot Erny</span> et j’ai 18 ans. Née à Paris, j’ai effectué tout mon parcours scolaire dans l’enseignement public parisien. 
-					Après avoir obtenu en juin 2025 le Bac général Section Langue Orientale Chinois avec les spécialités mathématiques et sciences économiques et sociales - mention Bien -, je suis désormais en première année de DEUST <span class="citations">« Webmaster et métiers de l’internet »</span> à l’université de Limoges. En parallèle, je suis inscrite dans une école de comédie musicale, ma passion.</p>
-
-					<p>J’ai une attirance pour la communication sous toutes ses formes : apprentissage de trois langues vivantes, participation à des spectacles musicaux et théâtraux et une petite expérience web (deux ans en tant que Community manager de l’association sportive de mon lycée ainsi que pour l’association Franco Chinoise du lycée).</p>
-
-			</section>
-
-			<section>
-
-				<h3>Mes premières expériences professionnelles</h3>
-
-					<p>Mon stage en cabinet d’avocat en classe de troisième m’a permis de comprendre qu’il est essentiel de toujours communiquer en respectant les lois et de réaliser des créations respectueuses des normes. Mon stage auprès d’une orthophoniste en classe de première m’a aussi convaincue de l’enjeu d’une présentation adaptée dans toute communication écrite pour aider les nombreuses personnes atteintes de troubles. 
-					J’ai passé mon BAFA en 2024 car l’animation me semblait être une belle opportunité de communication et accompagnement auprès des plus jeunes. 
-
-					<p>C’est ainsi que je me suis retrouvée en formation finale du BAFA au festival <span class="citations">« Au Bonheur des Mômes »</span> au Grand Bornand en août 2024, où les artistes comédiens se produisent dans la ville pour des spectacles vivants à destination du jeune public. J’ai pu découvrir l’existence de ce festival grâce à quelques recherches très simples sur Internet, en particulier grâce à leur site web.</p>
-
-					<p>Le spectacle vivant, grand moment de communication entre les artistes et les spectateurs est promu grâce à la communication digitale. 
-					Et il va sans dire que bons avis d’internautes, une bonne note sur les sites web, décuplent la notoriété de tout spectacle…  Mon sujet de grand oral au bac en sciences économiques et sociales traitait un peu ce sujet et s’intitulait: <span class="citations">« Les évaluations en ligne : un monde régit par les 5 étoiles ? »</span></p>
-
-			</section>
-
-		</section>
 
 <br>
 
