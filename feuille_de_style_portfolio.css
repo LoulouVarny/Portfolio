@@ -9,10 +9,15 @@ a[href^="./index.html"], a[href^="./travaux.html"] {
     font-style: italic;
 }
 
+a[href^="./index.html"], a[href^="./travaux.html"]:hover {
+    color: #FFFFFF;
+    text-decoration:overline;
+}
+
 /* général */
 
 header {
-  color: #9D1F64;
+  color: #FFEEEF;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   text-align: left;
@@ -41,8 +46,8 @@ body {
 /* pied de page */
 
 footer {
-    background: #9D1F64;
-    color: #FFEEEF;
+    background: #FFEEEF;
+    color: #9D1F64;
     font-size: 1,3em;
     border-radius: 1em;
     padding: 10px;
@@ -76,14 +81,14 @@ footer {
 /* titres */
 
 h1 {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   text-shadow: 1px 4px 3px grey;
 }
 
 h2 {
-  color: #FFEEEF;
+  color: #9D1F64;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   margin-top: 2em;
@@ -95,8 +100,7 @@ h2 {
 /* paragraphes */
 
 section {
-    color: #FFEEEF;
-    background-color: #9D1F64;
+    background-color: #FFEEEF;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
 }
@@ -106,7 +110,7 @@ section {
 /* listes */
 
 ul {
-  color: #FFEEEF;
+  color: #000000;
   font-size:80%;
   list-style: circle outside;
 }
