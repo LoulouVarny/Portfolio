@@ -21,6 +21,7 @@ header {
 
 body {
   background-color: #9D1F64;
+    color: #FFEEEF;
   width: 80%;
   margin-left: 10%;
   text-align: justify;
@@ -75,14 +76,14 @@ footer {
 /* titres */
 
 h1 {
-  color: #9D1F64;
+  color: #FFFFFF;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   text-shadow: 1px 4px 3px grey;
 }
 
 h2 {
-  color: #000000;
+  color: #FFEEEF;
   font-size: 2em;
   font-family: 'SonsieOne', sans-serif;
   margin-top: 2em;
@@ -94,8 +95,8 @@ h2 {
 /* paragraphes */
 
 section {
-    color: #9D1F64;
-    background-color: #FFEEEF;
+    color: #FFEEEF;
+    background-color: #9D1F64;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
 }
@@ -105,7 +106,7 @@ section {
 /* listes */
 
 ul {
-  color: #000000;
+  color: #FFEEEF;
   font-size:80%;
   list-style: circle outside;
 }
