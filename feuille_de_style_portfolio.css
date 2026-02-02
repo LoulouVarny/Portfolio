@@ -88,10 +88,11 @@ h1 {
 }
 
 h2 {
-  color: #9D1F64;
-  font-size: 2em;
-  font-family: 'SonsieOne', sans-serif;
-  margin-top: 0;
+    color: #9D1F64;
+    font-size: 2em;
+    font-family: 'SonsieOne', sans-serif;   
+    margin: 0; 
+    padding: 0;
 }
 
 
