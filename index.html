@@ -88,9 +88,15 @@
 		</footer>
 		
 		<script> 
-			// API blague fetch("https://v2.jokeapi.dev/joke/Any?type=single") .then(response => response.json()) .then(data => { document.getElementById("joke").innerHTML = data.joke; }); 
+			fetch("https://v2.jokeapi.dev/joke/Any?type=single") 
+				.then(response => response.json()) 
+				.then(data => { 
+					document.getElementById("joke").textContent = data.joke; 
+				}) 
+				.catch(error => { 
+					document.getElementById("joke").textContent = "Impossible de charger une blague."; console.error(error); 
+				}); 
 		</script>
-
 	</body>
 
 
