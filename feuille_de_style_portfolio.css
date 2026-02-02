@@ -5,8 +5,6 @@ a[href^="./index.html"], a[href^="./travaux.html"] {
     margin-left: 0%;
     text-align: left;
     text-indent: 1%;
-    border: 2px solid #9D1F64;
-    border-radius: 10px;
     color: #9D1F64;
     font-size: 1em;
     font-family: 'SonsieOne', sans-serif;
