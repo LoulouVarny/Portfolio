@@ -1,6 +1,6 @@
 /* menu */
 
-a[href^="./index.html"], a[href^="./travaux.html"] {
+/* a[href^="./index.html"], a[href^="./travaux.html"] {
     background-color: #FFEEEF;
     margin-left: 0%;
     text-align: left;
@@ -10,9 +10,16 @@ a[href^="./index.html"], a[href^="./travaux.html"] {
     font-family: 'SonsieOne', sans-serif;
     display: block; 
     padding: 10px;
-}
+} */
 
-
+a[href^="./index.html"], a[href^="./travaux.html"] {
+    background-color: #FFEEEF;
+    color: #9D1F64;
+    font-size: 1em;
+    font-family: 'SonsieOne', sans-serif;
+    display: block; 
+    padding: 10px;
+    
 
 /* général */
 
