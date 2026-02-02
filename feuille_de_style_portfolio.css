@@ -104,6 +104,7 @@ section {
     background-color: #FFEEEF;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+    padding: 20px;
 }
 
 
@@ -146,7 +147,7 @@ a[href="https://aicomparis.com"]:active {
 /* idem pour mailto */
 
 a[href^="mailto:"] {
-    color: #FFEEEF;
+    color: #9D1F64;
 }
 
 a[href^="mailto:"]:visited {
