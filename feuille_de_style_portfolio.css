@@ -40,8 +40,9 @@ body {
   font-style: italic;
 }
 
-
-
+#joke {
+    color: #000000;
+}
 
 /* pied de page */
 
